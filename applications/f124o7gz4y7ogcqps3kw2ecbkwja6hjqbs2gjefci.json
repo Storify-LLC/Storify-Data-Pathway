@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-02-26 06:53:03.595431263 UTC",
+    "Validated At": "2025-04-01 13:47:37.495435889 UTC",
     "Validated By": "shizhigu",
     "Active": true,
-    "Updated At": "2025-02-26 06:53:03.595427794 UTC",
-    "Active Request ID": "89ad8b6f-4913-4c12-9e58-49eadf3198e3",
+    "Updated At": "2025-04-01 13:47:37.495374176 UTC",
+    "Active Request ID": "351d885e-ebc7-45e7-8564-693e48c3e92e",
     "On Chain Address": "f124o7gz4y7ogcqps3kw2ecbkwja6hjqbs2gjefci",
     "Multisig Address": "false",
     "edited": false
@@ -59,6 +59,22 @@
           "Signing Address": "f13a6ov3nrxllvyqkduwczpyashgu3luivodwyvgq",
           "Created At": "2025-02-26 06:53:02.131000000 UTC",
           "Message CID": "bafy2bzaceczq33rcztdury4m3yropmfgf63fyoisoarv6sqeplsqzoui3dzrw"
+        }
+      ]
+    },
+    {
+      "ID": "351d885e-ebc7-45e7-8564-693e48c3e92e",
+      "Request Type": "Refill",
+      "Created At": "2025-04-01 13:44:52.057440941 UTC",
+      "Updated At": "2025-04-01 13:44:52.057441801 UTC",
+      "Active": false,
+      "Allocation Amount": "600 TiB",
+      "Signers": [
+        {
+          "Github Username": "shizhigu",
+          "Signing Address": "f13a6ov3nrxllvyqkduwczpyashgu3luivodwyvgq",
+          "Created At": "2025-04-01 13:47:34.855000000 UTC",
+          "Message CID": "bafy2bzacebm4mg3koowhq4aphe7w64rphkyakshnjwn7zktra3hufthcntbpk"
         }
       ]
     }
