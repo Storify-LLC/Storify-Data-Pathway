@@ -16,7 +16,7 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Film and animation design and production, short films, series animation creation, various types of game digital imagery products, and other data.",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
-    "How do you plan to prepare the dataset": "",
+    "How do you plan to prepare the dataset": "I am a data preparer and also a Filecoin holder. As a data preparer, my main responsibilities include data collection, cleaning, transformation, and sharding.\n\nCurrently, I am preparing data for a friend's company, which has a large volume of data and continuously generates new data, requiring a new storage solution. This is our first attempt in the Filecoin ecosystem.\n\nThe specific methods for data preparation are as follows:\n\nData Collection:\nCollect raw data from the source to ensure data integrity and accuracy.\nData Cleaning:\nUse Python's Pandas library and OpenRefine to handle missing values, duplicates, and formatting issues.\nData Transformation:\nConvert data into storage-friendly formats such as CSV, JSON, and Parquet.\nData Sharding:\nShard large files for distributed storage to ensure efficient data management and retrieval.\nTools:\nCommonly used tools include Python, Apache Spark, and Hadoop.\n",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.lanqb.com/news\nhttps://www.lanqb.com/school",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Sporadic",
@@ -43,7 +43,7 @@
     "Active Request ID": "d5e72760-f0d9-4a2c-a912-69a2244a4b91",
     "On Chain Address": "f124o7gz4y7ogcqps3kw2ecbkwja6hjqbs2gjefci",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
