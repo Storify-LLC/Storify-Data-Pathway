@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1dgztjokxdcy7bvo3tsbjjy4qril64hamqgwbgcy",
   "Issue Number": "70",
+  "Client Contract Address": "f410fv3pb7yehrqarlivqxjgbifegglphsscrcoknrwi",
   "Client": {
     "Name": "Allen Institute",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-06-08 14:02:55.316330665 UTC",
+    "Validated By": "shizhigu",
     "Active": true,
-    "Updated At": "2025-06-06 04:41:56.765292246 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-06-08 14:02:55.316334600 UTC",
+    "Active Request ID": "30012969-353b-4946-82db-d551d0f3f9ff",
     "On Chain Address": "f1dgztjokxdcy7bvo3tsbjjy4qril64hamqgwbgcy",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "30012969-353b-4946-82db-d551d0f3f9ff",
+      "Request Type": "First",
+      "Created At": "2025-06-08 14:02:55.316336546 UTC",
+      "Updated At": "2025-06-08 14:02:55.316337565 UTC",
+      "Active": true,
+      "Allocation Amount": "164926744166400 B",
+      "Signers": []
+    }
+  ]
 }
