@@ -16,14 +16,14 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "The sixth phase of global coupled ocean-atmosphere general circulation model ensemble.\n\nThis dataset contains two S3 bucket:\narn:aws:s3:::esgf-world    671.7 TiB\narn:aws:s3:::cmip6-pds    1.0 PiB",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "No response",
+    "How do you plan to prepare the dataset": "First, you need to download the CMIP6 dataset from the official source, making sure the data is complete and in the correct format, like NetCDF. Then, use tools such as Python's xarray or netCDF4 libraries to check and preprocess the data, cleaning up unnecessary variables or compressing files to save storage space. Next, package the processed data into a format suitable for Filecoin storage, like CAR files, which can be done using Filecoin's toolchain. After that, upload the data to the Filecoin network via Lotus or other Filecoin clients, and make sure to prepare your wallet and Gas fees in advance.Finally, confirm the deal is successful and save the storage receipt for future data retrieval or management.",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/cmip6/",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
     "What is the expected retrieval frequency for this data": "Sporadic",
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01083931\nf03055018\nf01083949\nf01083939\nf01081394",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01081394\nf01083931\nf01083939\nf01083949\nf01315096\nf03055005\nf03055018\nf03055029\nf0870558",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
