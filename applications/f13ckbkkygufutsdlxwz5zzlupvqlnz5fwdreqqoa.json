@@ -16,7 +16,7 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Mainly educational videos, training videos, etc.",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
-    "How do you plan to prepare the dataset": "No response",
+    "How do you plan to prepare the dataset": "As a dedicated Filecoin enthusiast, I have great confidence in the future development of IPFS, and I also have considerable experience in data preparation, primarily using the Filecoin official tools Boost and Lotus.",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.xuetian.cn/open-class",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
     "What is the expected retrieval frequency for this data": "Sporadic",
@@ -43,7 +43,7 @@
     "Active Request ID": "90fd556e-4d24-4c75-9690-b4c0d7494167",
     "On Chain Address": "f13ckbkkygufutsdlxwz5zzlupvqlnz5fwdreqqoa",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
