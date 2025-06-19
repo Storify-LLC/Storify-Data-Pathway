@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1srtc34se2lgufylq35mgfkegpgdltdiyziw5diq",
+  "Issue Number": "87",
+  "Client": {
+    "Name": "LAMOST",
+    "Region": "China",
+    "Industry": "Environment",
+    "Website": "http://www.lamost.org/dr9/",
+    "Social Media": "http://www.lamost.org/dr9/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "1. LAMOST Data includes Three Major Types:\nType (I):\nRaw Data: All original data as well as original provenance information (for example, the observing log files, calibration files, software versions used, etc.), and the batch reduced two-dimensional spectra.\nType (II):\n1D Spectral Data: One-dimensional spectra of observed objects, reduced through standardized reduction pipelines. Some provenance information is included with the 1D spectra, including the input catalog information, selection criteria and observing information such as exposure time, observation quality, seeing, weather conditions, and so on).\nType (III):\nCatalog Data: Objective physical quantities with errors, derived from the spectral data and input catalog. The catalog includes the coordinates, magnitudes, radial velocities, effective temperature, surface gravity, elemental abundances, warning flags and so on.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "1. LAMOST Data includes Three Major Types:\nType (I):\nRaw Data: All original data as well as original provenance information (for example, the observing log files, calibration files, software versions used, etc.), and the batch reduced two-dimensional spectra.\nType (II):\n1D Spectral Data: One-dimensional spectra of observed objects, reduced through standardized reduction pipelines. Some provenance information is included with the 1D spectra, including the input catalog information, selection criteria and observing information such as exposure time, observation quality, seeing, weather conditions, and so on).\nType (III):\nCatalog Data: Objective physical quantities with errors, derived from the spectral data and input catalog. The catalog includes the coordinates, magnitudes, radial velocities, effective temperature, surface gravity, elemental abundances, warning flags and so on.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "To get the LAMOST DR9 dataset onto the Filecoin network, the first step is downloading all the data and making sure it's complete and correct. After that, you dive into prepping the data - this means converting formats, compressing files, and pulling out metadata for easier searching later on. Next up, you slice and dice the data into chunks that fit nicely into Filecoin sectors, wrapping them up as CAR files, and calculate a PieceCID for each one of those files. Picking the right Storage Provider is crucial here; you want to look at where they're located, what kind of retrieval protocols they support, and their overall reputation. Once you've got that sorted, it's time to seal those sectors, which involves generating zero-knowledge proofs, before proposing the deal on-chain to officially store your data. When the storage provider accepts the deal and submits the PoRep on-chain, they'll need to keep submitting WindowPoSts to prove the data's still there and accessible. Finally, anyone can grab the stored data using the CID or through other retrieval methods. Throughout this whole process, it's important to think about setting up good data governance, incentives for participation, and ensuring everything complies with relevant rules and standards, so the scientific data stays safe and shareable long-term.\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.lamost.org/dr9/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02827953\nf02827843\nf02827109\nf02826602\nf02825675\nf03558637\nf03528948\nf03528979\nf03529412",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "20PiB",
+    "Single Size Dataset": "2.5PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-06-19 11:16:03.834586061 UTC",
+    "Validated By": "shizhigu",
+    "Active": true,
+    "Updated At": "2025-06-19 11:16:03.834581443 UTC",
+    "Active Request ID": "517019f9-9afd-4555-a790-1ce0eac42b86",
+    "On Chain Address": "f1srtc34se2lgufylq35mgfkegpgdltdiyziw5diq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "517019f9-9afd-4555-a790-1ce0eac42b86",
+      "Request Type": "First",
+      "Created At": "2025-06-19 11:14:10.587399820 UTC",
+      "Updated At": "2025-06-19 11:14:10.587401161 UTC",
+      "Active": false,
+      "Allocation Amount": "1125899906842624 B",
+      "Signers": [
+        {
+          "Github Username": "shizhigu",
+          "Signing Address": "f13a6ov3nrxllvyqkduwczpyashgu3luivodwyvgq",
+          "Created At": "2025-06-19 11:16:02.106000000 UTC",
+          "Message CID": "bafy2bzaceawsyr6fclotm5yiu3gevfc54abwph6zlw3g4xocdibbzydeoy4mm"
+        }
+      ]
+    }
+  ]
+}
