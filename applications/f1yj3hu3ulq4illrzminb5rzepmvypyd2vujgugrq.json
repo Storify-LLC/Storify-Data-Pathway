@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1yj3hu3ulq4illrzminb5rzepmvypyd2vujgugrq",
+  "Issue Number": "38",
+  "Client": {
+    "Name": "Shenzhen Huawen Film and Television",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "http://www.hwvideo.com/",
+    "Social Media": "http://www.hwvideo.com/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Shenzhen Huawen Film and Television Media Co., Ltd. (referred to as \"Shenzhen Huawen Film and Television\") was established in 2013. It is a full-media marketing agency based on film and television production, with a core focus on news dissemination both domestically and internationally.\n\nThe founding core members of the company are 80% derived from seasoned professionals of Shenzhen Media Group, Hong Kong Huayu Satellite TV, Asia United Satellite TV, among others, and it has signed contracts with a number of experienced directors, cameramen, and post-production special effects personnel. To date, the company has provided services to over 200 large and medium-sized enterprises in China, accumulating nearly 1000 films shot.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The stored data primarily encompasses a wide range of video content, including but not limited to promotional videos, film production materials, micro-videos, and advertisements. This data not only includes the final products but also involves various materials used during the production process, such as high-definition video clips, audio files, animation sequences, special effects resources, and related scripts and storyboards. Additionally, the database may store metadata associated with these video projects, including shooting locations, information on the creative team members involved, the equipment and technical specifications used, providing rich reference materials for subsequent content management and reuse. Such a comprehensive data storage solution ensures that every creative element can be effectively organized, retrieved, and reused, significantly enhancing work efficiency and creative flexibility.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.hwvideo.com/chanpinxilie/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03254235\nf01660795\nf02851143\nf03202108\nf03239692 \nf03300709\nf03321072\nf03254235",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "20PiB",
+    "Single Size Dataset": "2PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-02-28 03:47:09.551930795 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1yj3hu3ulq4illrzminb5rzepmvypyd2vujgugrq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
