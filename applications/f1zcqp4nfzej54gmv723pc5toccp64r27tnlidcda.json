@@ -16,7 +16,7 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Data related to architectural design, etc.",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
-    "How do you plan to prepare the dataset": "No response",
+    "How do you plan to prepare the dataset": "_ The core of Filecoin data preparation is to encapsulate data into a format recognizable by the network. First, the data is fragmented, and a CID is generated to represent its unique identity. Subsequently, through the \"sealing\" process, the data is encoded and encrypted to generate a Proof-of-Replication that certifies the data has been physically stored. Finally, miners submit this proof to the chain to gain storage power and continuously prepare Proofs-of-Spacetime for subsequent verification. _",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.cac-e.com/product.html",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
     "What is the expected retrieval frequency for this data": "Sporadic",
@@ -43,7 +43,7 @@
     "Active Request ID": "5e2ab6c0-7dce-41e5-9101-def47e1fd18c",
     "On Chain Address": "f1zcqp4nfzej54gmv723pc5toccp64r27tnlidcda",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
