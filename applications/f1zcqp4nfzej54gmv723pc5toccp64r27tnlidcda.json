@@ -16,14 +16,14 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Data related to architectural design, etc.",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
-    "How do you plan to prepare the dataset": "No response",
+    "How do you plan to prepare the dataset": "_ The core of Filecoin data preparation is to encapsulate data into a format recognizable by the network. First, the data is fragmented, and a CID is generated to represent its unique identity. Subsequently, through the \"sealing\" process, the data is encoded and encrypted to generate a Proof-of-Replication that certifies the data has been physically stored. Finally, miners submit this proof to the chain to gain storage power and continuously prepare Proofs-of-Spacetime for subsequent verification. _",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.cac-e.com/product.html",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
     "What is the expected retrieval frequency for this data": "Sporadic",
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01083931\nf01081394\nf03179555\nf03179572\nf03214937\nf01083939\nf01083949\nf01106668\nf01315096\nf03055018\nf03229932\nf03229933\nf03300963\nf0870558",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01081394\nf01081419\nf01083939\nf01083949\nf01084149\nf01106668\nf01315096\nf03055005\nf03055018\nf03055029\nf03179555\nf03179572\nf03214937\nf03229932\nf03229933\nf03300963\nf0870558\nf01083688 \nf01084788 \nf01081439 \nf01082688 \nf01084868",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
